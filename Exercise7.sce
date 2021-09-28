@@ -11,7 +11,7 @@ deff("y = f5(x)", "y = x^5")
 deff("y = f6(x)", "y = 1 ./ x")
 deff("y = f7(x)", "y = abs(x)")
 deff("y = f8(x)", "y = exp(x)")
-deff("y = f9(x)", "y = ln(x)")
+deff("y = f9(x)", "y = log(x)")
 
 eps = 10 ^ (-2)
 
@@ -64,3 +64,4 @@ y_6_2 = f9(x_6_2)
 plot(x_6_1, y_6_1, "b-")
 plot(x_6_2, y_6_2, "b-")
 replot([-5, -5, 5, 5])
+

@@ -1,4 +1,4 @@
-##### Sokem AYIGAH, Yilun JIANG et Djamal FECIH			                                       	IMA6
+##### Sokem AYIGAH, Yilun JIANG et Djamal FECIH
 # MAP : Compte Rendu TP1
 
 ### Exercice 1

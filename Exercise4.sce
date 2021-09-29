@@ -6,11 +6,11 @@ min_t = t(1)
 max_t = t(1)
 for i = 1:length(t)
     v = t(i)
-    disp(v)
     somme_t = somme_t + v;
+    disp(somme_t)
     w = t(i)
-    disp(w)
     produit_t = produit_t * w;
+    disp(produit_t)
 
     if min_t>v then
         min_t = v

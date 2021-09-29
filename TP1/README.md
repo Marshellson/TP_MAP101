@@ -64,11 +64,11 @@ disp(M)
 
 * On a les fonctions inverses (reciproques) de de tan(x), sinus(x) et cos(x) successivement
 
-![](C:\Users\Asus\Desktop\0f143648204b976ae8bea91bdac6130641e2297d.png)
+![](https://github.com/Marshellson/TP_MAP101/blob/main/TP1/image/0f143648204b976ae8bea91bdac6130641e2297d.png)
 
-![](C:\Users\Asus\Desktop\64f4966b5a6567ed036f23bc91c7c90c9a95c6a1.png)
+![](https://github.com/Marshellson/TP_MAP101/blob/main/TP1/image/64f4966b5a6567ed036f23bc91c7c90c9a95c6a1.png)
 
-![](C:\Users\Asus\Desktop\6635cf2cd634e3aed74dd520615ff20a72073358.png)
+![](https://github.com/Marshellson/TP_MAP101/blob/main/TP1/image/6635cf2cd634e3aed74dd520615ff20a72073358.png)
 
 * Alors 
 
@@ -207,26 +207,25 @@ set(axes, "isoview", "on")
 
 
 
-![1](C:\Users\Asus\Desktop\1.png)
+![1](https://github.com/Marshellson/TP_MAP101/blob/main/TP1/image/1.png)
 
+![2](https://github.com/Marshellson/TP_MAP101/blob/main/TP1/image/2.png)
 
-![2](C:\Users\Asus\Desktop\2.png)
+![3](https://github.com/Marshellson/TP_MAP101/blob/main/TP1/image/3.png)
 
-![3](C:\Users\Asus\Desktop\3.png)
+![4](https://github.com/Marshellson/TP_MAP101/blob/main/TP1/image/4.png)
 
-![4](C:\Users\Asus\Desktop\4.png)
+![5](https://github.com/Marshellson/TP_MAP101/blob/main/TP1/image/5.png)
 
-![5](C:\Users\Asus\Desktop\5.png)
+![6](https://github.com/Marshellson/TP_MAP101/blob/main/TP1/image/6.png)
 
-![6](C:\Users\Asus\Desktop\6.png)
+![7](https://github.com/Marshellson/TP_MAP101/blob/main/TP1/image/7.png)
 
-![7](C:\Users\Asus\Desktop\7.png)
+![8](https://github.com/Marshellson/TP_MAP101/blob/main/TP1/image/8.png)
 
-![8](C:\Users\Asus\Desktop\8.png)
+![9](https://github.com/Marshellson/TP_MAP101/blob/main/TP1/image/9.png)
 
-![9](C:\Users\Asus\Desktop\9.png)
-
-![10](C:\Users\Asus\Desktop\10.png)
+![10](https://github.com/Marshellson/TP_MAP101/blob/main/TP1/image/10.png)
 
 ```matlab
 #Exercice 7 (code complet)

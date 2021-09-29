@@ -29,7 +29,14 @@ scf()
 x_1 = -2:eps:2
 y_1 = f2(x_1)
 plot(x_1, y_1, "b-")
-replot([-2, -4, 2, 4])
+replot([-2, 0, 2, 4])
+
+axes = gca()
+xtitle("$f(x) = x^2$")
+axes.x_location = "origin"
+axes.y_location = "origin"
+axes.box = "off"
+set(axes, "isoview", "on")
 
 scf()
 
@@ -37,6 +44,13 @@ x_2 = -2:eps:2
 y_2 = f3(x_2)
 plot(x_2, y_2, "b-")
 replot([-2, -4, 2, 4])
+
+axes = gca()
+xtitle("$f(x) = x^3$")
+axes.x_location = "origin"
+axes.y_location = "origin"
+axes.box = "off"
+set(axes, "isoview", "on")
 
 scf()
 
@@ -53,17 +67,38 @@ plot(x_3, y_3_4, "b-")
 plot(x_3, y_3_5, "b-")
 replot([0, 0, 1, 1])
 
+axes = gca()
+xtitle(["$f(x) = x$";"$f(x) = x^2$";"$f(x) = x^3$";"$f(x) = x^4$";"$f(x) = x^5$"])
+axes.x_location = "origin"
+axes.y_location = "origin"
+axes.box = "off"
+set(axes, "isoview", "on")
+
 scf()
 x_4 = -10:eps:10
 y_4 = f6(x_4)
 plot(x_4, y_4, "b-")
 replot([-10, -10, 10, 10])
 
+axes = gca()
+xtitle("$f(x) = 1/x$")
+axes.x_location = "origin"
+axes.y_location = "origin"
+axes.box = "off"
+set(axes, "isoview", "on")
+
 scf()
 x_5 = -10:eps:10
 y_5 = f7(x_5)
 plot(x_5, y_5, "b-")
 replot([-10, -10, 10, 10])
+
+axes = gca()
+xtitle("$f(x) = |x|$")
+axes.x_location = "origin"
+axes.y_location = "origin"
+axes.box = "off"
+set(axes, "isoview", "on")
 
 scf()
 x_6 = -5:eps:5
@@ -73,10 +108,25 @@ plot(x_6, y_6_1, "b-")
 plot(x_6, y_6_2, "b-")
 replot([-5, -5, 5, 5])
 
+axes = gca()
+xtitle(["$f(x) = exp(x)$";"$f(x) = ln(x)$"])
+axes.x_location = "origin"
+axes.y_location = "origin"
+axes.box = "off"
+set(axes, "isoview", "on")
+
+
 scf()
 x_7 = 0:eps:10
 y_7 = f10(x_7)
 plot(x_7, y_7, "b-")
+
+axes = gca()
+xtitle("$f(x) = sqrt(x)$")
+axes.x_location = "origin"
+axes.y_location = "origin"
+axes.box = "off"
+set(axes, "isoview", "on")
 
 scf()
 a = [1/3 2/5 1/2 2/3 1 3/2 2 5/2 3]
@@ -86,6 +136,13 @@ for i = 1 : length(a)
     plot(x_8, y_8, "b-")
 end
 replot([-3, 0, 3, 10])
+
+axes = gca()
+xtitle("$f(a) = a^x$")
+axes.x_location = "origin"
+axes.y_location = "origin"
+axes.box = "off"
+set(axes, "isoview", "on")
 
 scf()
 x_9 = -3*%pi/2:eps:3*%pi/2
@@ -97,6 +154,13 @@ plot(x_9, y_9_2, "b-")
 plot(x_9, y_9_3, "b-")
 replot([-3*%pi/2, -4, 3*%pi/2, 4])
 
+axes = gca()
+xtitle(["$f(x) = cos(x)$";"$f(x) = sin(x)$"; "$f(x) = tan(x)$"])
+axes.x_location = "origin"
+axes.y_location = "origin"
+axes.box = "off"
+set(axes, "isoview", "on")
+
 scf()
 x_10 = -3:eps:3
 y_10_1 = f15(x_10)
@@ -106,3 +170,10 @@ plot(x_10, y_10_1, "b-")
 plot(x_10, y_10_2, "b-")
 plot(x_10, y_10_3, "b-")
 replot([-3, -4, 3, 4])
+
+axes = gca()
+xtitle(["$f(x) = cosh(x)$";"$f(x) = sinh(x)$"; "$f(x) = tanh(x)$"])
+axes.x_location = "origin"
+axes.y_location = "origin"
+axes.box = "off"
+set(axes, "isoview", "on")

@@ -11,12 +11,12 @@ while a <= 0
     a = input("Entrer un entier a: ")
 end
 
-u = [0,0,0,0,0,0,0,0,0,0]
+u = zeros(1, 10)
 for count = 1:10
     if count == 1 then
         u(count) = (a + 1) ./ 2
     else
-        u(count) = (a ./ 2 .* (u(count - 1)) + (u(count - 1) ./ 2))
+        u(count) = (a ./ (2 .* (u(count - 1))) + (u(count - 1) ./ 2))
     end
     
 end
